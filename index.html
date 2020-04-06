@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
+    <script src="./tsurukame-stroke-order.js"></script>
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      font-weight: 300;
+      background-color: #efefef;
+      width: 750px;
+      margin: 0 auto;
+    }
+
+    #kanji {
+      width: 100%;
+      height: 32px;
+      font-size: 24px;
+      box-sizing: border-box;
+    }
+
+    #diagram-form button {
+      width: 49.5%;
+      height: 32px;
+      margin-top: 6px;
+      background-color: #0074D9;
+      color: white;
+      border: solid 1px #7FDBFF;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #diagram-form button:hover {
+      filter: brightness(1.1);
+    }
+
+    #create-diagram {
+      float: right;
+    }
+
+    #diagram-container {
+      margin-top: 20px;
+      width: 100%;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+    footer {
+      margin-top: 50px;
+    }
+  </style>
+  <body>
+    <h1>Kanji Stroke Order Generator</h1>
+    <h3>How to use:</h3>
+    <ul>
+      <li>
+        Paste in a Kanji
+      </li>
+      <li>
+        Or add ?kanji=kanji to the URL
+      </li>
+      <li>
+        Or add ?kanji=kanji&dl=1 to the URL to straight download the kanji after it's generated
+      </li>
+      <li>
+        Use the generate-diagrams.js to mass generate and download kanji stroke order diagrams
+      </li>
+    </ul>
+
+    <form id="diagram-form">
+      <input type="text" id="kanji" placeholder="字">
+      <button id="download-diagram" >Download Diagram</button>
+      <button id="create-diagram" type="submit">Create Diagram</button>
+    </form>
+    <div id="diagram-container">
+    </div>
+
+    <footer>
+        <p>Based off the stroke order diagram generator on Jisho.org but with thicker lines, which in turn uses data from KanjiVG to generate diagrams</p>
+    </footer>
+  </body>
+</html>

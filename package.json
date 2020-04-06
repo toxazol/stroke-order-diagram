@@ -1,0 +1,13 @@
+{
+  "name": "kanji-format",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cameronh",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^15.2.1",
+    "minimist": "^1.2.0",
+    "request": "^2.88.0",
+    "snapsvg": "^0.5.1"
+  }
+}
