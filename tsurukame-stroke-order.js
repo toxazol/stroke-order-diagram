@@ -79,6 +79,26 @@ let styles = `
   stroke:none
 }`;
 
+let header = `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST g
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:element CDATA #IMPLIED
+kvg:variant CDATA #IMPLIED
+kvg:partial CDATA #IMPLIED
+kvg:original CDATA #IMPLIED
+kvg:part CDATA #IMPLIED
+kvg:number CDATA #IMPLIED
+kvg:tradForm CDATA #IMPLIED
+kvg:radicalForm CDATA #IMPLIED
+kvg:position CDATA #IMPLIED
+kvg:radical CDATA #IMPLIED
+kvg:phon CDATA #IMPLIED >
+<!ATTLIST path
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:type CDATA #IMPLIED >
+]>`;
+
 let circleWidth = 8;
 
 let createCss = function() {
@@ -105,7 +125,8 @@ var strokeOrderDiagram = function(element, svgDocument) {
   // Set drawing area
   s.node.style.width = canvasWidth + "px";
   s.node.style.height = canvasHeight + "px";
-  s.node.setAttribute("viewBox", "0 0 " + canvasWidth + " " + canvasHeight);
+  s.node.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+  s.node.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");
 
   // Draw global guides
   var boundingBoxTop = s.line(1, 1, canvasWidth-1, 1);
@@ -196,7 +217,7 @@ async function getKanjiNode(kanji) {
 
       var wrapper= document.createElement('div');
       wrapper.appendChild(diagram);
-      resolve(wrapper.innerHTML);
+      resolve(header + wrapper.innerHTML);
     });
   })
 }
@@ -208,6 +229,7 @@ async function getKanjiBrowser(kanji, download) {
         if (this.readyState == 4 && this.status == 200) {
           window.history.pushState('', '', `?kanji=${kanji}`)
           clearDiagram();
+          
           let diagram = initDiagram(getDomFromString(this.response));
   
           document.getElementById('diagram-container').appendChild(diagram);
