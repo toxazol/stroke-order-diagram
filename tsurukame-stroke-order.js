@@ -110,7 +110,7 @@ let createCss = function() {
 var strokeOrderDiagram = function(element, svgDocument) {
   element.appendChild(createCss());
   var s = Snap(element);
-  var diagramSize = 50;
+  var diagramSize = 200;
   var coordRe = '(?:\\d+(?:\\.\\d+)?)';
   var strokeRe = new RegExp('^[LMT]\\s*(' + coordRe + ')[,\\s](' + coordRe + ')', 'i');
   var f = Snap(svgDocument);
