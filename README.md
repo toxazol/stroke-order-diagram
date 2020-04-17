@@ -418,7 +418,7 @@
 ![09e75.svg](./downloaded/09e75.svg)  
 198\. 鹿 (しか) олень  
 ![09e7f.svg](./downloaded/09e7f.svg)  
-199\. 麥 (むぎ) пшеница 
+199\. 麥 (むぎ) пшеница  
 ![09ea5.svg](./downloaded/09ea5.svg)   
 200\. 麻 (あさ) лен  
 ![09ebb.svg](./downloaded/09ebb.svg)  
@@ -453,7 +453,7 @@
 ### 16 черт  
 
 212\. 龍(りゅう) дракон  
-![09f8d.svg](./downloaded/09f8d.svg)
+![09f8d.svg](./downloaded/09f8d.svg)  
 213\. 龜 (かめ) черепаха  
 ![09f9c.svg](./downloaded/09f9c.svg)  
 ### 17 черт  
