@@ -1,4 +1,4 @@
-##### 1 черта  
+### 1 черта  
 
 1\. 一(いち) один  
 ![04e00.svg](./downloaded/04e00.svg)    
@@ -12,7 +12,7 @@
 ![04e59.svg](./downloaded/04e59.svg)  
 6\. 亅 (はねぼう) шип, колючка, ус  
 ![04e85.svg](./downloaded/04e85.svg)  
-##### 2 черты  
+### 2 черты  
 
 7\. 二(に) два   
 ![04e8c.svg](./downloaded/04e8c.svg)  
@@ -60,7 +60,7 @@
 ![053b6.svg](./downloaded/053b6.svg)  
 29\. 又 (また) кроме того, при этом  
 ![053c8.svg](./downloaded/053c8.svg)  
-##### 3 черты  
+### 3 черты  
 
 30\. 口(くち) рот    
 ![053e3.svg](./downloaded/053e3.svg)  
@@ -124,7 +124,7 @@
 ![05f61.svg](./downloaded/05f61.svg)  
 60\. 彳 (ぎょうにんべん) идущий человек  
 ![05f73.svg](./downloaded/05f73.svg)  
-##### 4 черты  
+### 4 черты  
 
 61\. 心(りっしんべん) сердце   
 ![05fc3.svg](./downloaded/05fc3.svg)  
@@ -177,7 +177,7 @@
 85\. 水 (みず) вода   
 ![06c34.svg](./downloaded/06c34.svg)  
 86\. 火 (ひ) огонь   
-![000a0.svg](./downloaded/000a0.svg)  
+![0706b.svg](./downloaded/0706b.svg)  
 87\. 爪 (つめ) коготь   
 ![0722a.svg](./downloaded/0722a.svg)  
 88\. 父 (ちち) отец   
@@ -196,7 +196,7 @@
 ![072ac.svg](./downloaded/072ac.svg)  
 96\. 王 (おう) король   
 ![0738b.svg](./downloaded/0738b.svg)  
-##### 5 черт  
+### 5 черт  
 
 95\. 玄(げん) таинственный  
 ![07384.svg](./downloaded/07384.svg)  
@@ -244,7 +244,7 @@
 ![07a74.svg](./downloaded/07a74.svg)  
 117\. 立 (たつ) стоять  
 ![07acb.svg](./downloaded/07acb.svg)  
-##### 6 черт  
+### 6 черт  
 
 118\. 竹(たけ) бамбук  
 ![07af9.svg](./downloaded/07af9.svg)  
@@ -304,7 +304,7 @@
 ![08863.svg](./downloaded/08863.svg)  
 146\. 襾 (にし) запад  
 ![0897e.svg](./downloaded/0897e.svg)  
-##### 7 черт  
+### 7 черт  
 
 147\. 見(みる) видеть  
 ![0898b.svg](./downloaded/0898b.svg)  
@@ -346,7 +346,7 @@
 ![091c6.svg](./downloaded/091c6.svg)  
 166\. 里 (さと) деревня  
 ![091cc.svg](./downloaded/091cc.svg)  
-##### 8 черт  
+### 8 черт  
 
 167\. 金(かね) металл  
 ![091d1.svg](./downloaded/091d1.svg)  
@@ -366,7 +366,7 @@
 ![09752.svg](./downloaded/09752.svg)  
 175\. 非 (あらず) несправедливость  
 ![0975e.svg](./downloaded/0975e.svg)  
-##### 9 черт  
+### 9 черт  
 
 176\. 面(めん) поверхность   
 ![09762.svg](./downloaded/09762.svg)  
@@ -390,7 +390,7 @@
 ![09996.svg](./downloaded/09996.svg)  
 186\. 香 (においこう) запах   
 ![09999.svg](./downloaded/09999.svg)  
-##### 10 черт  
+### 10 черт  
 
 187\. 馬(うま) лошадь  
 ![099ac.svg](./downloaded/099ac.svg)  
@@ -408,7 +408,7 @@
 ![09b32.svg](./downloaded/09b32.svg)  
 194\. 鬼 (おに) демон  
 ![09b3c.svg](./downloaded/09b3c.svg)  
-##### 11 черт  
+### 11 черт  
 
 195\. 魚(うお) рыба  
 ![09b5a.svg](./downloaded/09b5a.svg)  
@@ -422,7 +422,7 @@
 ![09ea5.svg](./downloaded/09ea5.svg)   
 200\. 麻 (あさ) лен  
 ![09ebb.svg](./downloaded/09ebb.svg)  
-##### 13 черт  
+### 13 черт  
 
 201\. 黄(きいろ) желтый  
 ![09ec4.svg](./downloaded/09ec4.svg)  
@@ -440,23 +440,23 @@
 ![09f13.svg](./downloaded/09f13.svg)  
 208\. 鼠 (ねずみ) мышь  
 ![09f20.svg](./downloaded/09f20.svg)  
-##### 14 черт  
+### 14 черт  
 
 209\. 鼻(はな) нос  
 ![09f3b.svg](./downloaded/09f3b.svg)  
 210\. 齊 (せい) равный  
 ![09f4a.svg](./downloaded/09f4a.svg)  
-##### 15 черт  
+### 15 черт  
 
 211\. 齒(は )зуб  
 ![09f52.svg](./downloaded/09f52.svg)  
-##### 16 черт  
+### 16 черт  
 
 212\. 龍(りゅう) дракон  
 ![09f8d.svg](./downloaded/09f8d.svg)
 213\. 龜 (かめ) черепаха  
 ![09f9c.svg](./downloaded/09f9c.svg)  
-##### 17 черт  
+### 17 черт  
 
 214\. 龠(やく) флейта  
 ![09fa0.svg](./downloaded/09fa0.svg)  
