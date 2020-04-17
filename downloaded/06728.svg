@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST g
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:element CDATA #IMPLIED
+kvg:variant CDATA #IMPLIED
+kvg:partial CDATA #IMPLIED
+kvg:original CDATA #IMPLIED
+kvg:part CDATA #IMPLIED
+kvg:number CDATA #IMPLIED
+kvg:tradForm CDATA #IMPLIED
+kvg:radicalForm CDATA #IMPLIED
+kvg:position CDATA #IMPLIED
+kvg:radical CDATA #IMPLIED
+kvg:phon CDATA #IMPLIED >
+<!ATTLIST path
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:type CDATA #IMPLIED >
+]><svg style="width: 400px; height: 100px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>
+.stroke_order_diagram--outer_container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.stroke_order_diagram--guide_line {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  stroke-dasharray:8, 8;
+}
+
+.stroke_order_diagram--bounding_box {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+}
+
+.stroke_order_diagram--current_path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.stroke_order_diagram--existing_path {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+}
+
+.stroke_order_diagram--path_start {
+  fill: rgba(255, 0, 0, 0.7);
+  stroke:none
+}</style><desc>Created with Snap</desc><defs></defs><line x1="1" x2="399" y1="1" y2="1" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="1" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="399" y1="99" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="0" x2="400" y1="50" y2="50" class="stroke_order_diagram--guide_line"></line><line x1="50" x2="50" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="99" x2="99" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="kvg:06728-s1" kvg:type="㇐" d="M19.5,39.86c2.45,0.57,5.23,0.8,8.04,0.57C40.75,39.38,63,36.5,79.78,36.15c2.8-0.06,4.54,0.1,7.34,0.5" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk93xdzq01a6" kvg:type="㇐" d="M19.5,39.86c2.45,0.57,5.23,0.8,8.04,0.57C40.75,39.38,63,36.5,79.78,36.15c2.8-0.06,4.54,0.1,7.34,0.5" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><circle cx="19.5" cy="39.86" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,-4,-4)"></circle><line x1="150" x2="150" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="199" x2="199" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk93xdzq01a9" kvg:type="㇐" d="M19.5,39.86c2.45,0.57,5.23,0.8,8.04,0.57C40.75,39.38,63,36.5,79.78,36.15c2.8-0.06,4.54,0.1,7.34,0.5" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:06728-s2" kvg:type="㇑" d="M51.75,10.5c1.19,1.19,2,3,2,5c0,8.65,0,55.15-0.14,74.75c-0.03,4.19-0.07,7.15-0.11,8.25" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk93xdzq01ab" kvg:type="㇑" d="M51.75,10.5c1.19,1.19,2,3,2,5c0,8.65,0,55.15-0.14,74.75c-0.03,4.19-0.07,7.15-0.11,8.25" transform="matrix(1,0,0,1,96,-4)" class="stroke_order_diagram--current_path"></path><circle cx="51.75" cy="10.5" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,96,-4)"></circle><line x1="250" x2="250" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="299" x2="299" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk93xdzq01ae" kvg:type="㇐" d="M19.5,39.86c2.45,0.57,5.23,0.8,8.04,0.57C40.75,39.38,63,36.5,79.78,36.15c2.8-0.06,4.54,0.1,7.34,0.5" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk93xdzq01af" kvg:type="㇑" d="M51.75,10.5c1.19,1.19,2,3,2,5c0,8.65,0,55.15-0.14,74.75c-0.03,4.19-0.07,7.15-0.11,8.25" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:06728-s3" kvg:type="㇒" d="M50.75,39.5c0,1.12-0.61,2.44-1.42,3.95C41.75,57.5,26.7,73.93,15.75,80.25" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk93xdzq01ah" kvg:type="㇒" d="M50.75,39.5c0,1.12-0.61,2.44-1.42,3.95C41.75,57.5,26.7,73.93,15.75,80.25" transform="matrix(1,0,0,1,196,-4)" class="stroke_order_diagram--current_path"></path><circle cx="50.75" cy="39.5" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,196,-4)"></circle><line x1="350" x2="350" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="399" x2="399" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="pathSk93xdzq01ak" kvg:type="㇐" d="M19.5,39.86c2.45,0.57,5.23,0.8,8.04,0.57C40.75,39.38,63,36.5,79.78,36.15c2.8-0.06,4.54,0.1,7.34,0.5" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk93xdzq01al" kvg:type="㇑" d="M51.75,10.5c1.19,1.19,2,3,2,5c0,8.65,0,55.15-0.14,74.75c-0.03,4.19-0.07,7.15-0.11,8.25" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="pathSk93xdzq01am" kvg:type="㇒" d="M50.75,39.5c0,1.12-0.61,2.44-1.42,3.95C41.75,57.5,26.7,73.93,15.75,80.25" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--existing_path"></path><path id="kvg:06728-s4" kvg:type="㇏" d="M54.5,39c4.62,6,23,25.75,31.76,34.61c2.27,2.29,4.61,4.39,7.49,5.64" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk93xdzq01ao" kvg:type="㇏" d="M54.5,39c4.62,6,23,25.75,31.76,34.61c2.27,2.29,4.61,4.39,7.49,5.64" transform="matrix(1,0,0,1,296,-4)" class="stroke_order_diagram--current_path"></path><circle cx="54.5" cy="39" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,296,-4)"></circle></svg>

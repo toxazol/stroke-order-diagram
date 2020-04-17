@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+<!ATTLIST g
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:element CDATA #IMPLIED
+kvg:variant CDATA #IMPLIED
+kvg:partial CDATA #IMPLIED
+kvg:original CDATA #IMPLIED
+kvg:part CDATA #IMPLIED
+kvg:number CDATA #IMPLIED
+kvg:tradForm CDATA #IMPLIED
+kvg:radicalForm CDATA #IMPLIED
+kvg:position CDATA #IMPLIED
+kvg:radical CDATA #IMPLIED
+kvg:phon CDATA #IMPLIED >
+<!ATTLIST path
+xmlns:kvg CDATA #FIXED "http://kanjivg.tagaini.net"
+kvg:type CDATA #IMPLIED >
+]><svg style="width: 100px; height: 100px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>
+.stroke_order_diagram--outer_container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.stroke_order_diagram--guide_line {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+  stroke-dasharray:8, 8;
+}
+
+.stroke_order_diagram--bounding_box {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 4;
+  stroke-linecap: square;
+  stroke-linejoin: square;
+}
+
+.stroke_order_diagram--current_path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.stroke_order_diagram--existing_path {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin:round;
+}
+
+.stroke_order_diagram--path_start {
+  fill: rgba(255, 0, 0, 0.7);
+  stroke:none
+}</style><desc>Created with Snap</desc><defs></defs><line x1="1" x2="99" y1="1" y2="1" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="1" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="1" x2="99" y1="99" y2="99" class="stroke_order_diagram--bounding_box"></line><line x1="0" x2="100" y1="50" y2="50" class="stroke_order_diagram--guide_line"></line><line x1="50" x2="50" y1="1" y2="99" class="stroke_order_diagram--guide_line"></line><line x1="99" x2="99" y1="1" y2="99" class="stroke_order_diagram--bounding_box"></line><path id="kvg:04e85-s1" kvg:type="㇚" d="M51.58,12.33c0.67,0.92,1.92,3.01,1.98,6.06c0.31,14.66-0.2,71.05-0.2,76.05c0,10.56-6.92,0.2-7.8-0.75" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><path id="pathSk93xdzq01t" kvg:type="㇚" d="M51.58,12.33c0.67,0.92,1.92,3.01,1.98,6.06c0.31,14.66-0.2,71.05-0.2,76.05c0,10.56-6.92,0.2-7.8-0.75" transform="matrix(1,0,0,1,-4,-4)" class="stroke_order_diagram--current_path"></path><circle cx="51.58" cy="12.33" r="8" class="stroke_order_diagram--path_start" transform="matrix(1,0,0,1,-4,-4)"></circle></svg>
