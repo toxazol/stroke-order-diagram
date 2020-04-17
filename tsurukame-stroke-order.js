@@ -127,6 +127,8 @@ var strokeOrderDiagram = function(element, svgDocument) {
   s.node.style.height = canvasHeight + "px";
   s.node.setAttribute("xmlns", "http://www.w3.org/2000/svg");
   s.node.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");
+  s.node.setAttribute("width", canvasWidth + "px");
+  s.node.setAttribute("height", canvasHeight + "px");
 
   // Draw global guides
   var boundingBoxTop = s.line(1, 1, canvasWidth-1, 1);

@@ -1,82 +1,463 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"></script>
-    <script src="./tsurukame-stroke-order.js"></script>
-  </head>
-  <style>
-    body {
-      font-family: sans-serif;
-      font-weight: 300;
-      background-color: #efefef;
-      width: 750px;
-      margin: 0 auto;
-    }
-
-    #kanji {
-      width: 100%;
-      height: 32px;
-      font-size: 24px;
-      box-sizing: border-box;
-    }
-
-    #diagram-form button {
-      width: 49.5%;
-      height: 32px;
-      margin-top: 6px;
-      background-color: #0074D9;
-      color: white;
-      border: solid 1px #7FDBFF;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    #diagram-form button:hover {
-      filter: brightness(1.1);
-    }
-
-    #create-diagram {
-      float: right;
-    }
-
-    #diagram-container {
-      margin-top: 20px;
-      width: 100%;
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-    footer {
-      margin-top: 50px;
-    }
-  </style>
-  <body>
-    <h1>Kanji Stroke Order Generator</h1>
-    <h3>How to use:</h3>
-    <ul>
-      <li>
-        Paste in a Kanji
-      </li>
-      <li>
-        Or add ?kanji=kanji to the URL
-      </li>
-      <li>
-        Or add ?kanji=kanji&dl=1 to the URL to straight download the kanji after it's generated
-      </li>
-      <li>
-        Use the generate-diagrams.js to mass generate and download kanji stroke order diagrams
-      </li>
-    </ul>
-
-    <form id="diagram-form">
-      <input type="text" id="kanji" placeholder="字">
-      <button id="download-diagram" >Download Diagram</button>
-      <button id="create-diagram" type="submit">Create Diagram</button>
-    </form>
-    <div id="diagram-container">
-    </div>
-
-    <footer>
-        <p>Based off the stroke order diagram generator on Jisho.org but with thicker lines, which in turn uses data from KanjiVG to generate diagrams</p>
-    </footer>
-  </body>
-</html>
+### 1 черта  <br>
+<br>
+1. 一(いち) один  <br>
+<img src="./downloaded/04e00.png"><br>
+2. 丨 (ぼう) жезл, прут  <br>
+<img src="./downloaded/04e28.png"><br>
+3. 丶 (てん) точка  <br>
+<img src="./downloaded/04e36.png"><br>
+4. 丿 (てん) НО-кана  <br>
+<img src="./downloaded/04e3f.png"><br>
+5. 乙 (おつ) рыбный крючок  <br>
+<img src="./downloaded/04e59.png"><br>
+6. 亅 (はねぼう) шип, колючка, ус  <br>
+<img src="./downloaded/04e85.png"><br>
+### 2 черты  <br>
+<br>
+7. 二(に) два   <br>
+<img src="./downloaded/04e8c.png"><br>
+8. 亠 (なべぶた) крышка  <br>
+<img src="./downloaded/04ea0.png"><br>
+9. 人 (ひと) человек  <br>
+<img src="./downloaded/04eba.png"><br>
+10. 儿 (にんにょう) ноги человека    <br>
+<img src="./downloaded/0513f.png"><br>
+11. 入 (いる) входить  <br>
+<img src="./downloaded/05165.png"><br>
+12. 八 (はちがしら) восемь  <br>
+<img src="./downloaded/0516b.png"><br>
+13. 冂 (まきがまえ) витрина, прилавок  <br>
+<img src="./downloaded/05182.png"><br>
+14. 冖 (わかんむり) корона  <br>
+<img src="./downloaded/05196.png"><br>
+15. 冫 (にすい) капли воды  <br>
+<img src="./downloaded/051ab.png"><br>
+16. 几 (つくえ) стол  <br>
+<img src="./downloaded/051e0.png"><br>
+17. 凵 (うけばこ) открытая коробка  <br>
+<img src="./downloaded/051f5.png"><br>
+18. 刀 (かたな) меч  <br>
+<img src="./downloaded/05200.png"><br>
+19. 力 (ちから) сила  <br>
+<img src="./downloaded/0529b.png"><br>
+20. 勹 (つつみがまえ) заворачивать, оборачивать <br>
+<img src="./downloaded/052f9.png"><br>
+21. 匕 (さじのひ) ложка  <br>
+<img src="./downloaded/05315.png"><br>
+22. 匚 (はこがまえ) коробка с открытой стенкой  <br>
+<img src="./downloaded/0531a.png"><br>
+23. 匸 (かくしがまえ) прятать  <br>
+<img src="./downloaded/05338.png"><br>
+24. 十 (じゅう) крест  <br>
+<img src="./downloaded/05341.png"><br>
+25. 卜 (ぼくのと) волшебная палочка  <br>
+<img src="./downloaded/0535c.png"><br>
+26. 卩 (ふしづくり) печать  <br>
+<img src="./downloaded/05369.png"><br>
+27. 厂 (がんだれ) утес  <br>
+<img src="./downloaded/05382.png"><br>
+28. 厶 (む) я   <br>
+<img src="./downloaded/053b6.png"><br>
+29. 又 (また) кроме того, при этом  <br>
+<img src="./downloaded/053c8.png"><br>
+### 3 черты  <br>
+<br>
+30. 口(くち) рот    <br>
+<img src="./downloaded/053e3.png"><br>
+31. 囗 (くにがまえ) коробка  <br>
+<img src="./downloaded/056d7.png"><br>
+32. 土 (つち) земля, почва  <br>
+<img src="./downloaded/0571f.png"><br>
+33. 士 (さむらい) самурай  <br>
+<img src="./downloaded/058eb.png"><br>
+34. 夂 (ふゆがしら) зима, начинать  <br>
+<img src="./downloaded/05902.png"><br>
+35. 夊 (すい) волочить ноги  <br>
+<img src="./downloaded/0590a.png"><br>
+36. 夕 (ゆうべ) вечер  <br>
+<img src="./downloaded/05915.png"><br>
+37. 大 (だい) большой  <br>
+<img src="./downloaded/05927.png"><br>
+38. 女 (おんな )женщина  <br>
+<img src="./downloaded/05973.png"><br>
+39. 子 (こ) ребенок  <br>
+<img src="./downloaded/05b50.png"><br>
+40. 宀 (うかんむり) корона  <br>
+<img src="./downloaded/05b80.png"><br>
+41. 寸 (すん) клей  <br>
+<img src="./downloaded/05bf8.png"><br>
+42. 小 (ちいさい) маленький  <br>
+<img src="./downloaded/05c0f.png"><br>
+43. 尢 (まげあし) изогнутый «большой»  <br>
+<img src="./downloaded/05c22.png"><br>
+44. 尸 (しかばね) флаг  <br>
+<img src="./downloaded/05c38.png"><br>
+45. 屮 (てつ) старая трава  <br>
+<img src="./downloaded/05c6e.png"><br>
+46. 山 (やま) гора  <br>
+<img src="./downloaded/05c71.png"><br>
+47. 川 (まがりがわ) изогнутая «река»  <br>
+<img src="./downloaded/05ddd.png"><br>
+48. 工 (たくみ) навык, рабочий  <br>
+<img src="./downloaded/05de5.png"><br>
+49. 己 (おのれ) змея  <br>
+<img src="./downloaded/05df1.png"><br>
+50. 巾 (はば) одежда  <br>
+<img src="./downloaded/05dfe.png"><br>
+51. 干 (はす) сухой  <br>
+<img src="./downloaded/05e72.png"><br>
+52. 幺 (いとがしら)короткая нитка  <br>
+<img src="./downloaded/05e7a.png"><br>
+53. 广 (まだれ) утес с точкой  <br>
+<img src="./downloaded/05e7f.png"><br>
+54. 廴 (いんにょう) широкий шаг  <br>
+<img src="./downloaded/05ef4.png"><br>
+55. 廾 (にじゅうあし) двадцать  <br>
+<img src="./downloaded/05efe.png"><br>
+56. 弋 (しきがまえ) церемония  <br>
+<img src="./downloaded/05f0b.png"><br>
+57. 弓 (ゆみ) лук (оружие)  <br>
+<img src="./downloaded/05f13.png"><br>
+58. ヨ (けいがしら) голова свиньи  <br>
+<img src="./downloaded/030e8.png"><br>
+59. 彡 (さんづくり) пучок  <br>
+<img src="./downloaded/05f61.png"><br>
+60. 彳 (ぎょうにんべん) идущий человек  <br>
+<img src="./downloaded/05f73.png"><br>
+### 4 черты  <br>
+<br>
+61. 心(りっしんべん) сердце   <br>
+<img src="./downloaded/05fc3.png"><br>
+62. 戈 (かのほこ) алебарда   <br>
+<img src="./downloaded/06208.png"><br>
+63. 戸 (とびらのと) дверь   <br>
+<img src="./downloaded/06238.png"><br>
+64. 手 (て) рука   <br>
+<img src="./downloaded/0624b.png"><br>
+65. 支 (しんよう) ветка   <br>
+<img src="./downloaded/0652f.png"><br>
+66. 攴 (ぼくづくり) складной стул   <br>
+<img src="./downloaded/06534.png"><br>
+67. 文 (ぶんにょう) предложение, фраза   <br>
+<img src="./downloaded/06587.png"><br>
+68. 斗 (とます) ковш, черпак   <br>
+<img src="./downloaded/06597.png"><br>
+69. 斤 (おの) топор   <br>
+<img src="./downloaded/065a4.png"><br>
+70. 方 (ほう) сторона, направление   <br>
+<img src="./downloaded/065b9.png"><br>
+71. 无 (むにょう) изогнутый «рай»   <br>
+<img src="./downloaded/065e0.png"><br>
+72. 日 (にち) солнце   <br>
+<img src="./downloaded/065e5.png"><br>
+73. 曰 (にち) плоское солнце   <br>
+<img src="./downloaded/066f0.png"><br>
+74. 月 (つき) луна   <br>
+<img src="./downloaded/06708.png"><br>
+75. 木 (き) дерево   <br>
+<img src="./downloaded/06728.png"><br>
+76. 欠 (あくび) щель, пробел   <br>
+<img src="./downloaded/06b20.png"><br>
+77. 止 (とめる) остановиться   <br>
+<img src="./downloaded/06b62.png"><br>
+78. 歹 (がつへん) смерть   <br>
+<img src="./downloaded/06b79.png"><br>
+79. 殳 (ほこつくり) снова ветрено   <br>
+<img src="./downloaded/06bb3.png"><br>
+80. 毋 (なかれ) мать   <br>
+<img src="./downloaded/06bcb.png"><br>
+81. 比 (くらべるひ) состязание в беге   <br>
+<img src="./downloaded/06bd4.png"><br>
+82. 毛 (け) шерсть   <br>
+<img src="./downloaded/06bdb.png"><br>
+83. 氏 (うじ) клан   <br>
+<img src="./downloaded/06c0f.png"><br>
+84. 气 (きがまえ) дух   <br>
+<img src="./downloaded/06c14.png"><br>
+85. 水 (みず) вода   <br>
+<img src="./downloaded/06c34.png"><br>
+86. 火 (ひ) огонь   <br>
+<img src="./downloaded/0706b.png"><br>
+87. 爪 (つめ) коготь   <br>
+<img src="./downloaded/0722a.png"><br>
+88. 父 (ちち) отец   <br>
+<img src="./downloaded/07236.png"><br>
+89. 爻 (めめ) двойной X   <br>
+<img src="./downloaded/0723b.png"><br>
+90. 爿 (しょうへん) левосторонний «трафарет»   <br>
+<img src="./downloaded/0723f.png"><br>
+91. 片 (かた) односторонний трафарет   <br>
+<img src="./downloaded/07247.png"><br>
+92. 牙 (きばへん) клык   <br>
+<img src="./downloaded/07259.png"><br>
+93. 牛 (うし) корова   <br>
+<img src="./downloaded/0725b.png"><br>
+94. 犬 (いぬ) собака   <br>
+<img src="./downloaded/072ac.png"><br>
+96. 王 (おう) король   <br>
+<img src="./downloaded/0738b.png"><br>
+### 5 черт  <br>
+<br>
+95. 玄(げん) таинственный  <br>
+<img src="./downloaded/07384.png"><br>
+96. 玉 (うし) драгоценность  <br>
+<img src="./downloaded/07389.png"><br>
+97. 瓜 (うり) арбуз  <br>
+<img src="./downloaded/074dc.png"><br>
+98. 瓦 (かわら) черепица  <br>
+<img src="./downloaded/074e6.png"><br>
+99. 甘 (あまい) сладкий  <br>
+<img src="./downloaded/07518.png"><br>
+100.生 (うまれる) жизнь  <br>
+<img src="./downloaded/0751f.png"><br>
+101. 用 (もちいる) использовать  <br>
+<img src="./downloaded/07528.png"><br>
+102. 田 (た) рисовое поле  <br>
+<img src="./downloaded/07530.png"><br>
+103. 疋 (ひき) численность  <br>
+<img src="./downloaded/0758b.png"><br>
+104. 疔 (やまいだれ) болезнь  <br>
+<img src="./downloaded/07594.png"><br>
+105. 癶 (はつがしら) «шатер» с точками  <br>
+<img src="./downloaded/07676.png"><br>
+106. 白 (しろ) белый  <br>
+<img src="./downloaded/0767d.png"><br>
+107. 皮 (けがわ) прятаться  <br>
+<img src="./downloaded/076ae.png"><br>
+108. 皿 (さら) тарелка  <br>
+<img src="./downloaded/076bf.png"><br>
+109. 目 (め) глаз  <br>
+<img src="./downloaded/076ee.png"><br>
+110. 矛 (むのほこ) алебарда  <br>
+<img src="./downloaded/077db.png"><br>
+111. 矢 (や) стрела  <br>
+<img src="./downloaded/077e2.png"><br>
+112. 石 (いし) камень  <br>
+<img src="./downloaded/077f3.png"><br>
+113. 示 (しめす) показывать, указывать  <br>
+<img src="./downloaded/0793a.png"><br>
+114. 禹 (うのあし) МУ в коробке  <br>
+<img src="./downloaded/079b9.png"><br>
+115. 禾 (のぎ) дерево с двумя ветками  <br>
+<img src="./downloaded/079be.png"><br>
+116. 穴 (あな) щель, разрез  <br>
+<img src="./downloaded/07a74.png"><br>
+117. 立 (たつ) стоять  <br>
+<img src="./downloaded/07acb.png"><br>
+### 6 черт  <br>
+<br>
+118. 竹(たけ) бамбук  <br>
+<img src="./downloaded/07af9.png"><br>
+119. 米 (こめ) рис  <br>
+<img src="./downloaded/07c73.png"><br>
+120. 糸 (いと) нитка  <br>
+<img src="./downloaded/07cf8.png"><br>
+121. 缶 (ほとぎ) бидон, лейка  <br>
+<img src="./downloaded/07f36.png"><br>
+122. 网 (あみがしら) сеть  <br>
+<img src="./downloaded/07f51.png"><br>
+123. 羊 (ひつじ) овца  <br>
+<img src="./downloaded/07f8a.png"><br>
+124. 羽 (はね) перья  <br>
+<img src="./downloaded/07fbd.png"><br>
+125. 老 (おい) пожилой человек  <br>
+<img src="./downloaded/08001.png"><br>
+126. 而 (しかして) грабли  <br>
+<img src="./downloaded/0800c.png"><br>
+127. 耒 (らいすき) дерево с тремя ветками  <br>
+<img src="./downloaded/08012.png"><br>
+128. 耳 (みみ ) ухо  <br>
+<img src="./downloaded/08033.png"><br>
+129. 聿 (ふでづくり) кисть для письма  <br>
+<img src="./downloaded/0807f.png"><br>
+130. 肉 (にく) мясо  <br>
+<img src="./downloaded/08089.png"><br>
+131. 臣 (しん) вассал  <br>
+<img src="./downloaded/081e3.png"><br>
+132. 自 (みずから) себя  <br>
+<img src="./downloaded/081ea.png"><br>
+133. 至 (いたる) высшая точка, кульминация  <br>
+<img src="./downloaded/081f3.png"><br>
+134. 臼 (うす) мортира  <br>
+<img src="./downloaded/081fc.png"><br>
+135. 舌 (した) язык  <br>
+<img src="./downloaded/0820c.png"><br>
+136. 舛 (ます) танцевать  <br>
+<img src="./downloaded/0821b.png"><br>
+137. 舟 (ふね) корабль  <br>
+<img src="./downloaded/0821f.png"><br>
+138. 艮 (うしとら) хороший  <br>
+<img src="./downloaded/0826e.png"><br>
+139. 色 (いろ) цвет  <br>
+<img src="./downloaded/08272.png"><br>
+140. 艸 (くさ) трава  <br>
+<img src="./downloaded/08278.png"><br>
+141. 虍 (とらかんむり) тигр  <br>
+<img src="./downloaded/0864d.png"><br>
+142. 虫 (むし) насекомое  <br>
+<img src="./downloaded/0866b.png"><br>
+143. 血 (ち) кровь  <br>
+<img src="./downloaded/08840.png"><br>
+144. 行 (ぎょう) идти  <br>
+<img src="./downloaded/0884c.png"><br>
+145. 衣 (ころも) одежда  <br>
+<img src="./downloaded/08863.png"><br>
+146. 襾 (にし) запад  <br>
+<img src="./downloaded/0897e.png"><br>
+### 7 черт  <br>
+<br>
+147. 見(みる) видеть  <br>
+<img src="./downloaded/0898b.png"><br>
+148. 角 (つの) угол, рог  <br>
+<img src="./downloaded/089d2.png"><br>
+149. 言 (ことば) говорить  <br>
+<img src="./downloaded/08a00.png"><br>
+150. 谷 (たに) долина  <br>
+<img src="./downloaded/08c37.png"><br>
+151. 豆 (まめ) боб  <br>
+<img src="./downloaded/08c46.png"><br>
+152. 豕 (いのこ) свинья  <br>
+<img src="./downloaded/08c55.png"><br>
+153. 豸 (むじな) барсук  <br>
+<img src="./downloaded/08c78.png"><br>
+154. 貝 (かい) морская раковина  <br>
+<img src="./downloaded/08c9d.png"><br>
+155. 赤 (あか) красный  <br>
+<img src="./downloaded/08d64.png"><br>
+156. 走 (はしる) бежать  <br>
+<img src="./downloaded/08d70.png"><br>
+157. 足 (あし) нога  <br>
+<img src="./downloaded/08db3.png"><br>
+158. 身 (み) тело  <br>
+<img src="./downloaded/08eab.png"><br>
+159. 車 (くるま) колесо  <br>
+<img src="./downloaded/08eca.png"><br>
+160. 辛 (からい) пряный  <br>
+<img src="./downloaded/08f9b.png"><br>
+161. 辰 (しんのたつ) дракон  <br>
+<img src="./downloaded/08fb0.png"><br>
+162. 辷 (しんにゅう) дорога  <br>
+<img src="./downloaded/08fb7.png"><br>
+163. 邑 (むら) деревня  <br>
+<img src="./downloaded/09091.png"><br>
+164. 酉 (ひよみのとり) сакэ  <br>
+<img src="./downloaded/09149.png"><br>
+165. 釆 (のごめ) игральные кости  <br>
+<img src="./downloaded/091c6.png"><br>
+166. 里 (さと) деревня  <br>
+<img src="./downloaded/091cc.png"><br>
+### 8 черт  <br>
+<br>
+167. 金(かね) металл  <br>
+<img src="./downloaded/091d1.png"><br>
+168. 長 (ながい) длинный  <br>
+<img src="./downloaded/09577.png"><br>
+169. 門 (もん) ворота  <br>
+<img src="./downloaded/09580.png"><br>
+170. 阜 (ぎふのふ) деревня  <br>
+<img src="./downloaded/0961c.png"><br>
+171. 隶 (れいづくり) раб  <br>
+<img src="./downloaded/096b6.png"><br>
+172. 隹 (ふるとり) старая птица  <br>
+<img src="./downloaded/096b9.png"><br>
+173. 雨 (あめ) дождь  <br>
+<img src="./downloaded/096e8.png"><br>
+174. 青 (あう) зеленый, синий  <br>
+<img src="./downloaded/09752.png"><br>
+175. 非 (あらず) несправедливость  <br>
+<img src="./downloaded/0975e.png"><br>
+### 9 черт  <br>
+<br>
+176. 面(めん) поверхность   <br>
+<img src="./downloaded/09762.png"><br>
+177. 革 (かくのかわ) кожа   <br>
+<img src="./downloaded/09769.png"><br>
+178. 韋 (なめしがわ) обожженная кожа <br>
+<img src="./downloaded/097cb.png"><br>
+179. 韭 (にら) лук-порей   <br>
+<img src="./downloaded/097ed.png"><br>
+180. 音 (おと) звук   <br>
+<img src="./downloaded/097f3.png"><br>
+181. 頁 (おおがい) голова   <br>
+<img src="./downloaded/09801.png"><br>
+182. 風 (かぜ) ветер   <br>
+<img src="./downloaded/098a8.png"><br>
+183. 飛 (とぶ) летать   <br>
+<img src="./downloaded/098db.png"><br>
+184. 食 (しよく) еда   <br>
+<img src="./downloaded/098df.png"><br>
+185. 首 (くび) шея   <br>
+<img src="./downloaded/09996.png"><br>
+186. 香 (においこう) запах   <br>
+<img src="./downloaded/09999.png"><br>
+### 10 черт  <br>
+<br>
+187. 馬(うま) лошадь  <br>
+<img src="./downloaded/099ac.png"><br>
+188. 骨 (ほね) кость  <br>
+<img src="./downloaded/09aa8.png"><br>
+189. 高 (たかい) высокий  <br>
+<img src="./downloaded/09ad8.png"><br>
+190. 髟 (かみがしら) длинные волосы  <br>
+<img src="./downloaded/09adf.png"><br>
+191. 鬥 (とうがまえ) сломанные ворота <br>
+<img src="./downloaded/09b25.png"><br>
+192. 鬯 (ちよう) ароматные травы  <br>
+<img src="./downloaded/09b2f.png"><br>
+193. 鬲 (かく) тренога  <br>
+<img src="./downloaded/09b32.png"><br>
+194. 鬼 (おに) демон  <br>
+<img src="./downloaded/09b3c.png"><br>
+### 11 черт  <br>
+<br>
+195. 魚(うお) рыба  <br>
+<img src="./downloaded/09b5a.png"><br>
+196. 鳥 (とり) птица  <br>
+<img src="./downloaded/09ce5.png"><br>
+197. 鹵 (ろ) соль  <br>
+<img src="./downloaded/09e75.png"><br>
+198. 鹿 (しか) олень  <br>
+<img src="./downloaded/09e7f.png"><br>
+199. 麥 (むぎ) пшеница <br>
+<img src="./downloaded/09ea5.png"><br>
+200. 麻 (あさ) лен  <br>
+<img src="./downloaded/09ebb.png"><br>
+### 13 черт  <br>
+<br>
+201. 黄(きいろ) желтый  <br>
+<img src="./downloaded/09ec4.png"><br>
+202. 黍 (きび) просо  <br>
+<img src="./downloaded/09ecd.png"><br>
+203. 黒 (くろ) черный  <br>
+<img src="./downloaded/09ed2.png"><br>
+204. 黹 (ふつ) шить  <br>
+<img src="./downloaded/09ef9.png"><br>
+205. 黽 (べん) зеленая лягушка  <br>
+<img src="./downloaded/09efd.png"><br>
+206. 鼎 (かなえ) чайник на трех ножках  <br>
+<img src="./downloaded/09f0e.png"><br>
+207. 鼓 (つづみ) барабанный бой  <br>
+<img src="./downloaded/09f13.png"><br>
+208. 鼠 (ねずみ) мышь  <br>
+<img src="./downloaded/09f20.png"><br>
+### 14 черт  <br>
+<br>
+209. 鼻(はな) нос  <br>
+<img src="./downloaded/09f3b.png"><br>
+210. 齊 (せい) равный  <br>
+<img src="./downloaded/09f4a.png"><br>
+### 15 черт  <br>
+<br>
+211. 齒(は )зуб  <br>
+<img src="./downloaded/09f52.png"><br>
+### 16 черт  <br>
+<br>
+212. 龍(りゅう) дракон  <br>
+<img src="./downloaded/09f8d.png"><br>
+213. 龜 (かめ) черепаха  <br>
+<img src="./downloaded/09f9c.png"><br>
+### 17 черт  <br>
+<br>
+214. 龠(やく) флейта  <br>
+<img src="./downloaded/09fa0.png"><br>
+  
